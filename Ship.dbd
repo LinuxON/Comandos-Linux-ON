@@ -1,19 +1,12 @@
+// Comando Ship 
+
 $nomention
-
 $color[#FF0000]
-
-$title[Shipado!!]
-
+$title[Casal Shipado!!]
 $description[
-
 $allowMention
-
 ** Será que temos um novo casal aqui? **
-
 <@$mentioned[1]> ❤️ + ❤️ <@$mentioned[2]>
-
 --------------------------------
-
 $random[0;100]% de chance!]
-
 $image[https://66.media.tumblr.com/879ec00b3b13da76db7974b78af942e9/tumblr_mnof8dNMzp1rz62vio1_400.gif] 
