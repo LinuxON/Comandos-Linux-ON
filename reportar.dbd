@@ -1,0 +1,18 @@
+// Comandoa Para Reportar Erros
+$nomention
+$title[:warning: Novo bug encontrado!] 
+$color[#FF0000] 
+$description[
+**Nome do servidor:**
+`$serverName[$guildID]`
+**Autor da mensagem:**
+`$username`
+**Relatório:**
+$message 
+] 
+$addTimestamp 
+$footerIcon[$authorAvatar] 
+$footer[Sistema de reportar!] 
+$thumbnail[$serverIcon]
+$dm[535200145814585354]
+$channelSendMessage[$channelID;✅ | <@$authorID> Sua mensagem foi enviada com sucesso!] 
