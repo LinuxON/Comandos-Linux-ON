@@ -1,0 +1,10 @@
+// Comando Unban
+
+$nomention
+$allowMention
+$unban
+$unbanID
+$onlyAdmin[🚫 Você não tem permissão para usar este comando!]
+$title[Usuário Desbanido!]
+$description[O usuário **$message** foi desbanido por **$username**]
+$argsCheck[>1;Mencione alguém para eu desbanir.] 
