@@ -1,0 +1,13 @@
+#COMANDO AVATAR 
+
+$nomention
+$title[🖼️ | Avatar do usuário: $username[$mentioned[<]]!]
+$deletecommand
+$argsCheck[1;:x: | Você não mencionou ninguém para ver a foto do perfil!]
+$image[$userAvatar[$mentioned[<] ]]
+$addTimestamp
+$footer[Solicitado por $username]
+$footerIcon[$authorAvatar] 
+$description[Clique  [aqui]($userAvatar[$mentioned[1]]) para baixar a imagem ]
+$image[$userAvatar[$mentioned[1]]?size=2048]
+$color[#8A2BE2]
