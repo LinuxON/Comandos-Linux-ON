@@ -1,0 +1,17 @@
+#Comando Bem vindo 
+
+#gatilho:
+
+$onJoined[ID DO CANAL QUALQUER UM NÃO PRECISA SER O DO WELCOME MSM obs: o id tem que ser do servidor do bot onde será dado bem vindo] 
+
+#Comando:
+
+$nomention
+$useChannel[$getServerVar[bemvindo]] 
+$thumbnail[$authorAvatar] 
+$title[🐼 Seja bem vindo ao servidor!] 
+$color[#FF1493] 
+$description[Olá <@$authorID> espero que goste do servidor, agora somos uma comunidade de **$serverCount** membros.]
+$footer[ ID do usuário: $authorID]
+
+
