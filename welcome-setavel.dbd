@@ -1,4 +1,4 @@
-#Comando Bem vindo 
+#COMANDO WELCOME 3.0
 
 #gatilho:
 
@@ -14,4 +14,19 @@ $color[#FF1493]
 $description[Olá <@$authorID> espero que goste do servidor, agora somos uma comunidade de **$serverCount** membros.]
 $footer[ ID do usuário: $authorID]
 
+#COMANDO SETAR O CANAL WELCOME
+
+$nomention
+$deletecommand 
+$resetServerVar[bemvindo]
+$​setServerVar[bemvindo;$​sum[$​getServerVar[bemvindo];$​message]] 
+$title[✅ | Canal de welcome definido!] 
+$color[#7B68EE] 
+$footerIcon[$authorAvatar] 
+$addTimestamp 
+$footer[$username#$discriminator[$authorID]] 
+$description[Canal definido como bem vindo <#$message>
+] 
+$argsCheck[>1; :x: Você não coloco o ID do canal!]
+$onlyAdmin[:x: Só adms podem utilizar este comando!] 
 
