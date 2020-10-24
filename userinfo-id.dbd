@@ -1,0 +1,19 @@
+#COMANDO USER INFO ID LINUX ON
+
+$nomention
+$deletecommand 
+$color[#ff00ff] 
+$footer[Utilizado por $username$discriminator[$authorID]] 
+$thumbnail[$userAvatar[$message]]
+$title[👥・Sobre o usuário $username[$message]]
+$description[
+🔖 Tag do usuário:
+`$username[$message]#$discriminator[$message]`
+💻 ID do usuário:
+`$message`
+🤖 Conta de bot:
+`$isBot[$message]`
+📆 Conta criada em:
+`$creationDate[$message]`]
+$footerIcon[$authorAvatar]
+$addTimestamp
