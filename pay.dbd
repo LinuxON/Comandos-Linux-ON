@@ -1,0 +1,15 @@
+#Comando pay economia 
+#troca dinheiro pelo nome da sua variável de money
+
+$nomention
+$color[#FF69B4]
+$setUserVar[dinheiro;$sub[$getUserVar[dinheiro];$noMentionMessage];$authorID] 
+$onlyIf[$getUserVar[dinheiro;$authorID]>$noMentionMessage;:x: Valor insuficiente!] 
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$noMentionMessage];$mentioned[1]]
+$title[💰 Transferência realizada!] 
+$description[Você transferiu **$noMentionMessage** para <@$mentioned[1]>]
+$addTimestamp 
+$footerIcon[$authorAvatar] 
+$footer[Utilizado por $username#$discriminator[$authorID]] 
+$thumbnail[$authorAvatar] 
+ 
